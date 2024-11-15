@@ -80,5 +80,7 @@ to be used in Tableau, and I finally **exported all this info in a unique .csv f
   * As final step before publishing, I was able to create some **dashboards**. The main achievement here was the link between visualizations; where one was acting as a filter of the other/s.   
        
 
+6. **Link** to Tableau **Vizz**:
 
+https://public.tableau.com/views/visualization_ev_charging_patterns/Dashboard-1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
