@@ -22,6 +22,10 @@ For instance, the database and "fact table" were created as follows:
 
 ![image](https://github.com/user-attachments/assets/7861a251-b59a-4960-b1d2-d6a08214511d)
 
+And the **database Schema**:
+
+![image](https://github.com/user-attachments/assets/fbac75c9-b5de-4d03-802c-45249f6a7192)
+
 
 3. In **Python**, I set up a connection to my SQL database in order to be able to run/practice different queries according to the techniques learned so far:
     * GROUP BY
