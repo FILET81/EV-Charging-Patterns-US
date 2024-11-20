@@ -1,0 +1,4 @@
+charger_type,type_of_current,voltage,connector_type,avg_charge_time_from_empty,connector_image
+Level 1,AC,120V,J1772,11-20 hours,https://www.power-sonic.com/blog/ev-charging-connector-types/
+Level 2,AC,240V,J1772,3-8 hours,https://www.power-sonic.com/blog/ev-charging-connector-types/
+DC Fast Charger,DC,480V,CCS1,30-60 minutes,https://www.power-sonic.com/blog/ev-charging-connector-types/
