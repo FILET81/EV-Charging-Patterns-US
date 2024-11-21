@@ -7,7 +7,7 @@ The main purpose of this project was to practice **SQL**, along with **Python** 
   Although the size of such a dataset was not huge -that was not the main purpose for this exercise-, 
   my decision was based on kind of data types included on it (integers, floats, strings, datetimes, geolocations).
 
-Having this dataset as "fact table", I looked for other "dimension tables" (i.e. States' names, Brands' logos, Chargers' types). 
+Having this dataset as "fact table", I looked for other "dimension tables" (i.e. States' names, Brands' logos, Chargers' types), 
 helping me to complement the info already appearing in the main dataset.
 
 All of them were in .csv format.
@@ -95,7 +95,7 @@ And some **conclusions based on numerical** analysis:
 
 
 **4**. After practicing and obtaining reliable results from such queries, I **joined all the tables** of my database, I selected the desired columns
-to be used in Tableau, and I finally **exported all this info in a unique .csv file** (for simplicity reasons); altough such joins could have also been directly done in Tableau:
+to be used in Tableau, and I finally **exported all this info in a unique .csv file** (for simplicity reasons); although such joins could have been directly done in Tableau too:
 
 ![image](https://github.com/user-attachments/assets/7203ea92-728d-4b48-af3f-3a241e4b25c4)
 
@@ -107,7 +107,7 @@ to be used in Tableau, and I finally **exported all this info in a unique .csv f
 
 **5**. Once in **Tableau**:
   * I imported the resulting .csv retrieved from Python.
-  * In the **Data Source** tab, I had to modify the properies of the file since the information wasn't correctly populated at first; common issues are "Field separator" or "Locale" (US vs EU, for instance).
+  * In the **Data Source** tab, I had to modify the properties of the file since the information wasn't correctly populated at first; common issues are "Field separator" or "Locale" (US vs EU, for instance).
   * I also had to convert some data types for a better performance (as an example, strings to either integers or floats, strings to URLs, or both strings and floats to geolocations).
   * With these modifications applied, I could start properly working with different **visualizations** such as:
     * Maps
@@ -118,7 +118,7 @@ to be used in Tableau, and I finally **exported all this info in a unique .csv f
     * Playing with dimensions (Vehicle Model, User Type, Logo,...)
     * Playing with measures (Charging Duration Hours, Charging Cost Usd)
     * Applying dual axis
-    * Applying axis sinchronization
+    * Applying axis synchronization
     * Data formatting
     * Applying reference lines
     * Creation of groups
